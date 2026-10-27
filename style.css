@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  border-bottom: solid 2px #747474;
+  padding-bottom: .5rem;
+}
+
+.square {
+  height: 200px;
+  aspect-ratio: 1.5;
+  background-color: purple;
+
+  @media (max-width:1000px) {
+    background-color: green;
+  }
+
+  @media (max-width:800px) {
+    background-color: blue;
+  }
+
+  @media (max-width:600px) {
+    background-color: red;
+  }
+
+
+}
+
+.condition {
+  .purple {
+    color: purple;
+  }
+
+  .blue {
+    color: blue;
+  }
+
+  .green {
+    color: green;
+  }
+
+  .red {
+    color: red;
+  }
+}
